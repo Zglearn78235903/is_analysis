@@ -1,0 +1,36 @@
+@startuml
+
+object 图书管理员{
+       name="管理员"
+       id="1"
+}
+object 读者{
+       name="读者"
+       age="12"
+       phone="110"
+}
+object 图书采购员{
+       name="采购员"
+       id="2"
+}
+object 损坏图书{
+       name="损坏书名"
+       price="money"
+}
+object 查询借阅书籍情况{
+       number="查询借阅书籍数量"
+       time="查询归还书籍日期"
+       backtime="查询是否逾期归还"
+}
+object 图书书目{
+       lei="书籍种类"
+       number="书籍数量"
+       price=" 价格"
+       produce="简介"
+}
+object 借出图书{
+        number=" 借出数量"
+        time="借出时间"
+}
+
+@enduml
