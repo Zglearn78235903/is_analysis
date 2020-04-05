@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="151.5px" preserveAspectRatio="none" style="width:180px;height:151px;" version="1.1" viewBox="0 0 180 151" width="180px" zoomAndPan="magnify"><defs><filter height="300%" id="f19edek2af09w4" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="3.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="6.0" dy="6.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#f19edek2af09w4)" height="124.5264" style="stroke: #A80036; stroke-width: 2.25;" width="153" x="10.5" y="10.5"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="72" x="51" y="34.1279">图书书目</text><line style="stroke: #A80036; stroke-width: 2.25;" x1="12" x2="162" y1="41.083" y2="41.083"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="99" x="19.5" y="64.2729">lei="书籍种类"</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="135" x="19.5" y="84.7588">number="书籍数量"</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="91.5" x="19.5" y="105.2446">price=" 价格"</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="109.5" x="19.5" y="125.7305">produce="简介"</text><!--MD5=[26c9bd19f6a4067a032ca96e398d55eb]
+@startuml
+
+object 图书书目{
+       lei="书籍种类"
+       number="书籍数量"
+       price=" 价格"
+       produce="简介"
+}
+
+@enduml
+
+PlantUML version 1.2020.03beta6(Unknown compile time)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.5+10-b520.38
+Operating System: Windows 10
+Default Encoding: GBK
+Language: zh
+Country: CN
+--></g></svg>
